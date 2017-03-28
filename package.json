@@ -12,7 +12,7 @@
   "devDependencies": {
     "es6-promise": "^4.0.5",
     "gulp-autoprefixer": "3.1.1",
-    "gulp-cache": "0.4.5",
+    "gulp-cache": "0.4.X",
     "gulp-clean": "^0.3.2",
     "gulp-cssnano": "^2.1.2",
     "gulp-notify": "2.2.0",

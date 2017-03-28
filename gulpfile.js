@@ -18,11 +18,13 @@ wrench.readdirSyncRecursive('./gulp').filter(function(file) {
 gulp.task('help', function() {
   console.log('develop - Watch sass files and generate unminified CSS for development');
   console.log('test  - Lint Sass');
+  console.log('jekyll  - Run gulp develop with Jekyll instance to demo examples');
   console.log('build  - Lint Sass files and generate minified CSS for production');
 });
 
 /* Gulp default task list */
 gulp.task('default', ['help']);
 gulp.task('develop', ['watch', 'sass:develop']);
+gulp.task('jekyll', ['watch', 'sass:develop', 'jekyll:serve']);
 gulp.task('test', ['lint:sass']);
 gulp.task('build', ['lint:sass', 'sass:build']);

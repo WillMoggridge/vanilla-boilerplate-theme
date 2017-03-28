@@ -4,12 +4,27 @@ This repo is intended to be used as a boilerplate to create themes for Vanilla f
 
 ## How to use this boilerplate
 
-1. Import this repo into your newly created repo for your new theme. It should be named `vanilla-*-theme` where `*` is the unique name of your theme.
+Import this repo into your newly created repo for your new theme. It should be named `vanilla-*-theme` where `*` is the unique name of your theme.
 
-2. Edit the `package.json` file to update the relevant name and repo details.
+Edit the `package.json` file to update the relevant name and repo details.
 
-3. Update `_theme.scss` and `build.scss` to include the name of your new repo.
+Update `_theme.scss` and `build.scss` to include the name of your new repo.
 
-4. Run `npm i` to install the necessary dependancies.
+You will then need to [install Docker](https://docs.docker.com/engine/installation/). Then run one of:
 
-5. Run `gulp test` - if everything is setup correctly, your console should not return any errors or warnings. Happy theming!
+```bash
+./run build  # Build the CSS
+./run watch  # Auto-build the CSS when Sass files change
+./run test   # Check the Sass files for syntax & style errors
+./run clean  # Clean up generated files
+```
+
+### Using a local version of vanilla-framework
+
+You can use the `./run` script to use NPM modules from a local folder on a one-time basis, instead of the modules declared in `package.json`.
+
+This mechanism will allow you to, for example, use a local version of `vanilla-framework`:
+
+``` bash
+./run --node-module $HOME/project/vanilla-framework watch  # Build CSS dynamically, using a local version of vanilla-framework
+```

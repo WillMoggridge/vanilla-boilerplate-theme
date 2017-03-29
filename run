@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # Define the versions of the two docker images
-yarn_image="ubuntudesign/yarn:v0.1.0"
+yarn_image="canonicalwebteam/yarn:v0.2.0"
 
 # Usage instructions
 USAGE="Usage

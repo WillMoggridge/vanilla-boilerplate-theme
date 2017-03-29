@@ -1,3 +1,4 @@
 /build
 /node_modules
-+.docker-project
+.docker-project
+yarn-error.log

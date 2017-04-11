@@ -50,7 +50,9 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-shell": "^0.6.3",
     "gulp-util": "^3.0.8",
+    "node-sass": "^4.5.2",
     "vanilla-framework": "^1.1.x"
   }
 }

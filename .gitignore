@@ -2,3 +2,5 @@
 /node_modules
 .docker-project
 yarn-error.log
+Gemfile.lock
+/_jekyll/_site

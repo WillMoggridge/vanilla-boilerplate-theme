@@ -2,8 +2,8 @@
 
 You can use this template to raise two different types of issue. Please choose the appropriate section and delete the other section.
 
-1. Raise a bug where you can report a problem or inconsistency with Vanilla Framework.
-2. Raise a proposal to add/amend a pattern contained within Vanilla Framework
+1. Raise a bug where you can report a problem or inconsistency with Vanilla Boilerplate Theme.
+2. Raise a proposal to add/amend a pattern contained within Vanilla Boilerplate Theme
 
 ---------------------------------------------------------------------------------------
 
@@ -33,7 +33,7 @@ You can use this template to raise two different types of issue. Please choose t
 
 # 2. Pattern proposal/amendment
 
-If you would like to add a new pattern or change an existing pattern in Vanilla Framework, please use this template.
+If you would like to add a new pattern or change an existing pattern in Vanilla Boilerplate Theme, please use this template.
 
 Note: Remember that a pattern in Vanilla needs to be flexible enough that it can be used across a wide range of scenarios and shouldn't be constrained to a specific number of applications.
 
